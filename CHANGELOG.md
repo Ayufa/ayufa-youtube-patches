@@ -6,7 +6,6 @@
 * **simeji:** collapse the empty top strip with the AI icon patch ([77d3c51](https://github.com/Ayufa/ayufa-youtube-patches/commit/77d3c51e163103b4195b0f17c361ce291886bab8))
 * **simeji:** retarget patches from Simeji 23.7 to 20.7 ([c4280ee](https://github.com/Ayufa/ayufa-youtube-patches/commit/c4280ee3b22744d2b007548271a0abb9cf8de36f))
 * **simeji:** runtime settings toggles, VIP spoof and Japanese patch names ([72a734a](https://github.com/Ayufa/ayufa-youtube-patches/commit/72a734afa23a94feb11227a7f959cea93a05f03d))
-* split the YouTube patches into their own repository ([714f222](https://github.com/Ayufa/ayufa-youtube-patches/commit/714f22221a4b249f09ba3237980be67728e55e83))
 
 ### 🐛 Bug Fixes
 
@@ -40,7 +39,6 @@
 * **simeji:** collapse the empty top strip with the AI icon patch ([77d3c51](https://github.com/Ayufa/ayufa-youtube-patches/commit/77d3c51e163103b4195b0f17c361ce291886bab8))
 * **simeji:** retarget patches from Simeji 23.7 to 20.7 ([c4280ee](https://github.com/Ayufa/ayufa-youtube-patches/commit/c4280ee3b22744d2b007548271a0abb9cf8de36f))
 * **simeji:** runtime settings toggles, VIP spoof and Japanese patch names ([72a734a](https://github.com/Ayufa/ayufa-youtube-patches/commit/72a734afa23a94feb11227a7f959cea93a05f03d))
-* split the YouTube patches into their own repository ([714f222](https://github.com/Ayufa/ayufa-youtube-patches/commit/714f22221a4b249f09ba3237980be67728e55e83))
 * Support the Live latency keeper on YouTube 21.30.216 as well ([9b1f35b](https://github.com/Ayufa/ayufa-youtube-patches/commit/9b1f35b04aa0f69a69e28398d43206d1b98e0c10))
 * Sync live playback at a fixed interval, adjustable in settings ([2c38d75](https://github.com/Ayufa/ayufa-youtube-patches/commit/2c38d75ebf673a2567bfd007b857ae1bb8a4f186))
 
