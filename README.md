@@ -1,18 +1,18 @@
 <p align="center">
-  <a href="https://morphe.software/add-source?github=Ayufa/ayufa-patches">
+  <a href="https://morphe.software/add-source?github=Ayufa/ayufa-youtube-patches">
     <img src=".github/assets/add-to-morphe.svg" alt="Morphe に追加" height="48">
   </a>
 </p>
 
-# 🧩 Ayufa パッチ
+# 🧩 Ayufa YouTube パッチ
 
 <p align="center">
 
-![GitHub Release](https://img.shields.io/github/v/release/Ayufa/ayufa-patches?include_prereleases&style=for-the-badge)
-![License](https://img.shields.io/github/license/Ayufa/ayufa-patches?style=for-the-badge)
-![GitHub Stars](https://img.shields.io/github/stars/Ayufa/ayufa-patches?style=for-the-badge)
-![GitHub Forks](https://img.shields.io/github/forks/Ayufa/ayufa-patches?style=for-the-badge)
-![GitHub Issues](https://img.shields.io/github/issues/Ayufa/ayufa-patches?style=for-the-badge)
+![GitHub Release](https://img.shields.io/github/v/release/Ayufa/ayufa-youtube-patches?include_prereleases&style=for-the-badge)
+![License](https://img.shields.io/github/license/Ayufa/ayufa-youtube-patches?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/Ayufa/ayufa-youtube-patches?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/Ayufa/ayufa-youtube-patches?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/Ayufa/ayufa-youtube-patches?style=for-the-badge)
 
 </p>
 
@@ -20,9 +20,9 @@
 
 > [!NOTE]
 >
-> 個人的に作っている、Morphe 用の独自パッチ集です。公式の Morphe パッチではありません。
+> 個人的に作っている、Morphe 用の独自パッチです。公式の Morphe パッチではありません。
 >
-> YouTube のパッチは本家のパッチと一緒に使う想定です。Simeji のパッチは、本家に Simeji 向けがないため単体で動作します。
+> 本家のパッチと一緒に使う想定です。
 
 ## Contents
 
@@ -40,10 +40,11 @@
 
 本家のパッチ（[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)）で満足できなかったところや、自分が欲しい機能だけを少し足す、という位置づけのパッチ集です。
 
+もともと Simeji のパッチと同じリポジトリでしたが、2026年11月に YouTube 分をこのリポジトリへ分離しました。Simeji のパッチは [Ayufa Patches](https://github.com/Ayufa/ayufa-patches) にあります。
+
 | 対象アプリ | 対象バージョン | パッチ数 |
 |---|---|---|
 | YouTube | 21.30.216 / 20.26.46 | 2 |
-| Simeji | 20.7 | 11 |
 
 ## ⚠️ 免責
 
@@ -51,13 +52,12 @@
 
 ## 使い方
 
-上のボタンから、このリポジトリを Morphe のパッチソースに追加して、使いたいパッチを選んで適用します（YouTube のパッチは本家のパッチと一緒に選んでください。Simeji はこのリポジトリのパッチだけで大丈夫です）。
+上のボタンから、このリポジトリを Morphe のパッチソースに追加して、使いたいパッチを選んで適用します（本家のパッチと一緒に選んでください）。
 
 ⚠️ **対象バージョンは厳密に合わせてください**（バージョンごとに動作を確認しているため、対象以外には当てられません）。
 
 - YouTube「ライブチャットの余計な表示を隠す」→ **21.30.216**
 - YouTube「ライブ遅延キーパー」→ **20.26.46**
-- Simeji の全パッチ → **20.7**（23.7 には当てないでください）
 
 ## パッチの詳細
 
@@ -81,34 +81,10 @@
 | 何をするか | ライブチャットに出てくる固定コメント（ピン留めされたメッセージ）やアンケート（投票カード）など、チャットを読むときに邪魔な表示を隠します。あわせて、コメントを書くときにチャットがキーボードに合わせて動かず、入力欄がキーボードに隠れてしまう問題も直します（キーボードが開いている間、キーボードの高さに合わせてチャットを持ち上げます） |
 | 調整 | パッチ適用時に、項目を個別に選べます。さらに、適用後は Morphe 設定に専用の「Ayufaパッチ設定」画面ができ、その中の「固定メッセージ（バナー）を隠す」「アンケートを隠す」「ライブチャットのキーボード重なりを修正」で、再パッチなしに切り替えられます（次にチャットを開いたときから反映） |
 
-### ⌨️ Simeji
-
-対象はすべて Simeji **20.7** です。各パッチの有効・無効は、アプリ内の「Ayufaパッチ設定」から再パッチなしで切り替えられます。
-
-| パッチ | 何をするか |
-|---|---|
-| 広告を非表示 | 候補欄に出る広告、ストア入場時の全面広告、Webキャンペーンのポップアップを消します。リワード広告もブロックします（広告を見ると解放される機能も止まります） |
-| プロモーションを非表示 | 全画面のキャンペーン／宣伝アクティビティが開かないようにします |
-| VIP案内画面をブロック | VIPの案内画面を開かないようにします。この画面はアプリ内課金の購入画面も兼ねているため、ブロック中はアプリ内からは契約できなくなります |
-| プッシュポップアップを無効化 | プッシュキャンペーンのダイアログ型ポップアップを表示しません（通常の通知は影響なし） |
-| 解約時の引き止め画面をスキップ | VIP解約時の引き止め画面を飛ばして、解約手続きに直行します |
-| 解析レポートを無効化 | AppsFlyer へのイベント送信と、Simeji 独自の統計レポート送信を止めます。キーボード・変換・同期などの本体機能には触りません |
-| ポイント入口を非表示 | ポイントストアやキャンペーンへの入口（ポイント導線）を表示しません |
-| レビュー依頼を無効化 | Google Play の星評価依頼（独自ダイアログと Play 内レビュー依頼の両方）を出さないようにします |
-| AIアシスタントのアイコンを非表示 | キーボード右上に表示されるロボット（AIアシスタント）のアイコンと、その吹き出しメッセージを表示しません。アイコンがあった一番上の帯も畳むので、空の帯は残りません。入力・変換には影響しません |
-| VIPを偽装 | 端末内のVIP判定だけを有効にします。ツールバーのカスタマイズや、自作きせかえのVIPパーツなど、端末内で完結する機能が使えるようになります（初期値はオフ） |
-| アプリ内設定画面を追加 | Simeji の設定タブの一番下に「Ayufaパッチ設定」の入口を追加します。各パッチの切り替えにはこのパッチが必要です |
-
-#### Simeji の注意点
-
-- **設定の場所**：「アプリ内設定画面を追加」を当てると、Simeji アプリ下部の「設定」タブの一番下に「Ayufaパッチ設定」が追加されます。初期値は、VIP偽装以外すべてオンです
-- **Google アカウントでログインできません**：再署名されたアプリでは、Google ログインの署名照合（パッケージ名＋証明書）が通らないためです。パッチでは回避できません。Baidu アカウントの ID／パスワードでのログインは影響を受けません
-- **VIP偽装の限界**：VIP特典のうちサーバー側で管理されているもの（クラウドきせかえ・バックアップ・翻訳・AI枠など）は、偽装しても使えません
-
 ## 🩹 パッチ一覧
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.3.0-dev.11](https://github.com/Ayufa/ayufa-patches/releases/tag/v1.3.0-dev.11)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;13 patches total
+> **[v1.3.0-dev.11](https://github.com/Ayufa/ayufa-youtube-patches/releases/tag/v1.3.0-dev.11)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;13 patches total
 <details open>
 <summary>📦 Simeji&nbsp;&nbsp;•&nbsp;&nbsp;11 patches</summary>
 <br>
@@ -161,7 +137,7 @@
 このリポジトリの Issue に報告してください。その際、次の情報を添えてもらえると助かります。
 
 - アプリのバージョン
-- 使ったパッチソースのリリース（例：`stable v1.2.0` / `dev v1.3.0-dev.9`）
+- 使ったパッチソースのリリース（例：`v1.0.0`）
 - APK の入手元と形式（例：APKMirror の単一APK、XAPK など）
 - 可能ならログ
 
@@ -169,25 +145,13 @@
 
 ## FAQ
 
-### Google アカウントでログインできないのはなぜ？
-
-再署名されたアプリは、Google ログインの署名照合（パッケージ名＋証明書）を通らないためです。パッチでは回避できません。Baidu アカウントの ID／パスワードでのログインは影響を受けません。
-
 ### 対象バージョン以外には当てられますか？
 
 当てられません。バージョンごとに動作を確認しているため、対象バージョンの APK を用意してください。
 
-### 「VIPを偽装」をオンにすれば、VIP特典が全部使えますか？
-
-使えません。端末内で完結するもの（ツールバーのカスタマイズ、自作きせかえのVIPパーツなど）だけです。クラウドきせかえ・バックアップ・翻訳・AI枠など、サーバー側で管理されている特典は使えません。
-
-### Simeji の設定はどこにありますか？
-
-「アプリ内設定画面を追加」を当てると、Simeji アプリ下部の「設定」タブの一番下に「Ayufaパッチ設定」が追加されます。そこで各パッチのオン／オフを切り替えます。
-
 ### 本家のパッチと一緒に使うのですか？
 
-YouTube のパッチは本家のパッチと一緒に使う想定です。Simeji のパッチは単体で動作します（本家に Simeji 向けのパッチはありません）。
+はい。本家のパッチと一緒に使う想定です。
 
 ## 本家との関係
 
