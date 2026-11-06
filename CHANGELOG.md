@@ -1,23 +1,3 @@
-## [1.1.0-dev.1](https://github.com/Ayufa/ayufa-youtube-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-11-06)
-
-### ✨ New Features
-
-* **simeji:** add Hide AI assistant icon patch ([85c9f5f](https://github.com/Ayufa/ayufa-youtube-patches/commit/85c9f5f6f337ff65f1d94f5dbc79d59d6e554726))
-* **simeji:** collapse the empty top strip with the AI icon patch ([77d3c51](https://github.com/Ayufa/ayufa-youtube-patches/commit/77d3c51e163103b4195b0f17c361ce291886bab8))
-* **simeji:** retarget patches from Simeji 23.7 to 20.7 ([c4280ee](https://github.com/Ayufa/ayufa-youtube-patches/commit/c4280ee3b22744d2b007548271a0abb9cf8de36f))
-* **simeji:** runtime settings toggles, VIP spoof and Japanese patch names ([72a734a](https://github.com/Ayufa/ayufa-youtube-patches/commit/72a734afa23a94feb11227a7f959cea93a05f03d))
-* split the YouTube patches into their own repository ([714f222](https://github.com/Ayufa/ayufa-youtube-patches/commit/714f22221a4b249f09ba3237980be67728e55e83))
-
-### 🐛 Bug Fixes
-
-* assign a recommended patch set (selected by default) ([2bbddd5](https://github.com/Ayufa/ayufa-youtube-patches/commit/2bbddd55c945a960990caeb2c2ead576be871de8))
-* make every patch recommended (selected by default) ([82135ad](https://github.com/Ayufa/ayufa-youtube-patches/commit/82135ad71246724a40b6f5d2bd1e647715667876))
-* **simeji:** English patch titles, Japanese descriptions stay ([aa4c08b](https://github.com/Ayufa/ayufa-youtube-patches/commit/aa4c08bb0fb2b0409f4e40b7693d2ed73f571e36))
-* **simeji:** make the settings entry actually appear in the settings tab ([a84633f](https://github.com/Ayufa/ayufa-youtube-patches/commit/a84633fd9b5350a919ac446e27096bbe79fe3c40))
-* **simeji:** revert the English patch titles; names stay Japanese ([bd51fe4](https://github.com/Ayufa/ayufa-youtube-patches/commit/bd51fe4bec4287d57ecbb0096052f6e8280ca64a))
-* **simeji:** settings entry hook must run before the parameter register is recycled ([3b3342d](https://github.com/Ayufa/ayufa-youtube-patches/commit/3b3342dc39754e8f7843fad4f09d76f7e88a78cd))
-* **simeji:** stock-styled settings entry and settings page ([7c5db62](https://github.com/Ayufa/ayufa-youtube-patches/commit/7c5db622915c953d47ead8a8e43b099c6ba45570))
-
 ## 1.0.0-dev.1 (2026-11-06)
 
 ### ⚠ BREAKING CHANGES
