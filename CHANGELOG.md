@@ -16,7 +16,6 @@
 * Remove the Live latency keeper patch ([53eecf4](https://github.com/Ayufa/ayufa-youtube-patches/commit/53eecf4e49c1640e4c16ea8ae4fb974e00ebf5a4))
 * Rename the bundle to Ayufa Patches, a multi-app custom patch collection ([2d88f9b](https://github.com/Ayufa/ayufa-youtube-patches/commit/2d88f9b20c27911a7b189e19945eab038f402c7c))
 * Restore the Live latency keeper with a Morphe settings toggle ([812189e](https://github.com/Ayufa/ayufa-youtube-patches/commit/812189eb8b6d38b0a6e0fb51386ea63340aee267))
-* split the YouTube patches into their own repository ([e98f6e5](https://github.com/Ayufa/ayufa-youtube-patches/commit/e98f6e572abc351fcb8318016d2ede13365138d3))
 * Support the Live latency keeper on YouTube 21.30.216 as well ([9b1f35b](https://github.com/Ayufa/ayufa-youtube-patches/commit/9b1f35b04aa0f69a69e28398d43206d1b98e0c10))
 * Sync live playback at a fixed interval, adjustable in settings ([2c38d75](https://github.com/Ayufa/ayufa-youtube-patches/commit/2c38d75ebf673a2567bfd007b857ae1bb8a4f186))
 
