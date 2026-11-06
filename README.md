@@ -40,8 +40,6 @@
 
 本家のパッチ（[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)）で満足できなかったところや、自分が欲しい機能だけを少し足す、という位置づけのパッチ集です。
 
-もともと Simeji のパッチと同じリポジトリでしたが、2026年11月に YouTube 分をこのリポジトリへ分離しました。Simeji のパッチは [Ayufa Patches](https://github.com/Ayufa/ayufa-patches) にあります。
-
 | 対象アプリ | 対象バージョン | パッチ数 |
 |---|---|---|
 | YouTube | 21.30.216 / 20.26.46 | 2 |
@@ -83,9 +81,9 @@
 
 ## 🩹 パッチ一覧
 
-<!-- PATCHES_START EXPANDED -->
+<!-- PATCHES_START -->
 > **[v1.1.0-dev.1](https://github.com/Ayufa/ayufa-youtube-patches/releases/tag/v1.1.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
-<details open>
+<details>
 <summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
