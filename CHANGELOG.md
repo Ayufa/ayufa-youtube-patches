@@ -1,3 +1,9 @@
+## [1.1.0-dev.2](https://github.com/Ayufa/ayufa-youtube-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-11-06)
+
+### 🐛 Bug Fixes
+
+* remove the live chat keyboard overlap fix from the clutter patch ([8a17d3f](https://github.com/Ayufa/ayufa-youtube-patches/commit/8a17d3ff34c9fd70a676e81256b33209e23ecc25))
+
 ## [1.1.0-dev.1](https://github.com/Ayufa/ayufa-youtube-patches/compare/v1.0.0...v1.1.0-dev.1) (2026-11-06)
 
 ### ✨ New Features
