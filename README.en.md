@@ -107,13 +107,19 @@ Bugs in the official patches themselves cannot be fixed here.
 
 ## FAQ
 
-### Can I apply the patches to other app versions?
+<details>
+<summary>Can I apply the patches to other app versions?</summary>
 
 No. Each patch is verified per version, so please use the exact target version's APK.
 
-### Do I use these together with the official patches?
+</details>
+
+<details>
+<summary>Do I use these together with the official patches?</summary>
 
 Yes. These patches are meant to be used together with the official patches.
+
+</details>
 
 ## Relationship with upstream
 
