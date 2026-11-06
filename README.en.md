@@ -40,8 +40,6 @@
 
 This collection adds the small things the official patches ([MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)) left unsatisfied, plus features I wanted myself.
 
-The Simeji patches used to live in the same repository; in November 2026 the YouTube patches were split into this repository. The Simeji patches are in [Ayufa Patches](https://github.com/Ayufa/ayufa-patches).
-
 | App | Supported versions | Patches |
 |---|---|---|
 | YouTube | 21.30.216 / 20.26.46 | 2 |
