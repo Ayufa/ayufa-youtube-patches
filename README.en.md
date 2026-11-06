@@ -85,8 +85,8 @@ Example use: an old Android 8.0 device (e.g. SOV34) left playing live streams al
 | | |
 |---|---|
 | Target | YouTube **21.30.216** (the latest stable version recommended upstream; for recent Android) |
-| What it does | Hides visual clutter in live chat, such as the pinned message banner and poll cards, that gets in the way while reading chat. It also fixes the chat input field being covered by the on-screen keyboard (while the keyboard is open, the chat is lifted by the keyboard's height) |
-| Adjusting | Each item can be selected individually when applying the patch. After patching, a dedicated "Ayufa patch settings" screen appears in Morphe settings, where "Hide pinned message banner", "Hide live chat polls" and "Fix live chat keyboard overlap" can be toggled without re-patching (applied the next time you open chat) |
+| What it does | Hides visual clutter in live chat, such as the pinned message banner and poll cards, that gets in the way while reading chat |
+| Adjusting | Each item can be selected individually when applying the patch. After patching, a dedicated "Ayufa patch settings" screen appears in Morphe settings, where "Hide pinned message banner" and "Hide live chat polls" can be toggled without re-patching (applied the next time you open chat) |
 
 </details>
 

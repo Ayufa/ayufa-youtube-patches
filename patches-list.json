@@ -1,11 +1,11 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.1.0-dev.3",
   "patches": [
     {
       "name": "Hide live chat clutter",
-      "description": "Hides the pinned message banner and poll cards in live chat, and fixes the chat input field being covered by the on-screen keyboard. Each can be toggled in Morphe settings (Ayufa patch settings) without re-patching. For YouTube 21.30.216.",
-      "default": false,
+      "description": "Hides the pinned message banner and poll cards in live chat. Each can be toggled in Morphe settings (Ayufa patch settings) without re-patching. For YouTube 21.30.216.",
+      "default": true,
       "category": null,
       "compatiblePackages": [
         {
@@ -48,22 +48,13 @@
           "type": "kotlin.Boolean",
           "default": true,
           "values": null
-        },
-        {
-          "key": "fixLiveChatKeyboard",
-          "title": "Fix live chat keyboard overlap",
-          "description": "Fixes the live chat input field being covered by the on-screen keyboard while typing.",
-          "required": false,
-          "type": "kotlin.Boolean",
-          "default": true,
-          "values": null
         }
       ]
     },
     {
       "name": "Live latency keeper",
       "description": "At a fixed interval, momentarily pauses and resumes live stream playback so it snaps back to the live edge (the newest position), no matter how far behind it has fallen. The interval (any value from 0 to 120 minutes, typed in directly) and the on/off switch can be changed in Morphe settings (Ayufa patch settings) without re-patching. For YouTube 20.26.46 (Android 8.0) only. Requires the official Morphe patches to be applied as well.",
-      "default": false,
+      "default": true,
       "category": null,
       "compatiblePackages": [
         {
