@@ -38,11 +38,16 @@
 
 ## ❓ About
 
+<details>
+<summary>Overview</summary>
+
 This collection adds the small things the official patches ([MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)) left unsatisfied, plus features I wanted myself.
 
 | App | Supported versions | Patches |
 |---|---|---|
 | YouTube | 21.30.216 / 20.26.46 | 2 |
+
+</details>
 
 ## ⚠️ Disclaimer
 
