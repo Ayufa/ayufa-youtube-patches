@@ -1,4 +1,4 @@
-rootProject.name = "ayufa-patches"
+rootProject.name = "ayufa-youtube-patches"
 
 pluginManagement {
     repositories {
