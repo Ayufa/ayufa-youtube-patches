@@ -1,3 +1,9 @@
+## [1.1.0-dev.3](https://github.com/Ayufa/ayufa-youtube-patches/compare/v1.1.0-dev.2...v1.1.0-dev.3) (2026-11-06)
+
+### 🐛 Bug Fixes
+
+* drop the leftover Simeji settings activity from the extension manifest ([7ae1d37](https://github.com/Ayufa/ayufa-youtube-patches/commit/7ae1d378d678589f578b80d8c118918c10baee8d))
+
 ## [1.1.0-dev.2](https://github.com/Ayufa/ayufa-youtube-patches/compare/v1.1.0-dev.1...v1.1.0-dev.2) (2026-11-06)
 
 ### 🐛 Bug Fixes
