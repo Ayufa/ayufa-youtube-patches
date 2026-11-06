@@ -61,7 +61,8 @@ Use the button above to add this repository as a patch source in Morphe, then se
 
 ### 📺 YouTube
 
-#### Live latency keeper
+<details>
+<summary>Live latency keeper</summary>
 
 | | |
 |---|---|
@@ -71,13 +72,18 @@ Use the button above to add this repository as a patch source in Morphe, then se
 
 Example use: an old Android 8.0 device (e.g. SOV34) left playing live streams all day, which ends up minutes behind without you noticing.
 
-#### Hide live chat clutter
+</details>
+
+<details>
+<summary>Hide live chat clutter</summary>
 
 | | |
 |---|---|
 | Target | YouTube **21.30.216** (the latest stable version recommended upstream; for recent Android) |
 | What it does | Hides visual clutter in live chat, such as the pinned message banner and poll cards, that gets in the way while reading chat. It also fixes the chat input field being covered by the on-screen keyboard (while the keyboard is open, the chat is lifted by the keyboard's height) |
 | Adjusting | Each item can be selected individually when applying the patch. After patching, a dedicated "Ayufa patch settings" screen appears in Morphe settings, where "Hide pinned message banner", "Hide live chat polls" and "Fix live chat keyboard overlap" can be toggled without re-patching (applied the next time you open chat) |
+
+</details>
 
 ## 🩹 Patches list
 
