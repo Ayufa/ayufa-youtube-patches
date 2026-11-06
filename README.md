@@ -38,11 +38,16 @@
 
 ## ❓ このリポジトリについて
 
+<details>
+<summary>概要</summary>
+
 本家のパッチ（[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches)）で満足できなかったところや、自分が欲しい機能だけを少し足す、という位置づけのパッチ集です。
 
 | 対象アプリ | 対象バージョン | パッチ数 |
 |---|---|---|
 | YouTube | 21.30.216 / 20.26.46 | 2 |
+
+</details>
 
 ## ⚠️ 免責
 
