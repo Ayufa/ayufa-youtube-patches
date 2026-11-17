@@ -88,12 +88,14 @@
 | 何をするか | ライブチャットに出てくる固定コメント（ピン留めされたメッセージ）やアンケート（投票カード）など、チャットを読むときに邪魔な表示を隠します |
 | 調整 | パッチ適用時に、項目を個別に選べます。さらに、適用後は Morphe 設定に専用の「Ayufaパッチ設定」画面ができ、その中の「固定メッセージ（バナー）を隠す」「アンケートを隠す」で、再パッチなしに切り替えられます（次にチャットを開いたときから反映） |
 
+なお、このパッチを適用すると、本家の不具合（視聴履歴から動画を再開すると、音声は流れるのに映像が開始位置のまま止まる）への回避処理もデフォルトで組み込まれます。回避処理はパッチや設定としては存在せず、常に有効です。本家が修正した時点で取り除きます。
+
 </details>
 
 ## 🩹 パッチ一覧
 
 <!-- PATCHES_START -->
-> **[v1.1.0](https://github.com/Ayufa/ayufa-youtube-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.1.1-dev.1](https://github.com/Ayufa/ayufa-youtube-patches/releases/tag/v1.1.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details>
 <summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
