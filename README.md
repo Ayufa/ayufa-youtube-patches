@@ -95,7 +95,7 @@
 ## 🩹 パッチ一覧
 
 <!-- PATCHES_START -->
-> **[v1.1.0](https://github.com/Ayufa/ayufa-youtube-patches/releases/tag/v1.1.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.1.1-dev.1](https://github.com/Ayufa/ayufa-youtube-patches/releases/tag/v1.1.1-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details>
 <summary>📦 YouTube&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>

@@ -1,3 +1,9 @@
+## [1.1.1-dev.1](https://github.com/Ayufa/ayufa-youtube-patches/compare/v1.1.0...v1.1.1-dev.1) (2026-11-17)
+
+### 🐛 Bug Fixes
+
+* add built-in workaround for resumed-from-history playback freeze ([51bb3bc](https://github.com/Ayufa/ayufa-youtube-patches/commit/51bb3bc998d7ea03993b098d00bed4c07283f5e1))
+
 ## [1.1.0](https://github.com/Ayufa/ayufa-youtube-patches/compare/v1.0.0...v1.1.0) (2026-11-06)
 
 ### ✨ New Features
