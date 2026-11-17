@@ -88,6 +88,8 @@ Example use: an old Android 8.0 device (e.g. SOV34) left playing live streams al
 | What it does | Hides visual clutter in live chat, such as the pinned message banner and poll cards, that gets in the way while reading chat |
 | Adjusting | Each item can be selected individually when applying the patch. After patching, a dedicated "Ayufa patch settings" screen appears in Morphe settings, where "Hide pinned message banner" and "Hide live chat polls" can be toggled without re-patching (applied the next time you open chat) |
 
+Applying this patch also builds in a workaround for an upstream bug where resuming a video from the watch history leaves the picture frozen at the starting position while the audio plays. The workaround is not a patch or a setting and is always on; it will be removed once upstream fixes the bug.
+
 </details>
 
 ## 🩹 Patches list

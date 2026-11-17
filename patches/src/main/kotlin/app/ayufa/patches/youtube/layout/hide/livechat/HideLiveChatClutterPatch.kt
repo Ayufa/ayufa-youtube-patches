@@ -8,6 +8,7 @@ import app.morphe.patcher.patch.resourcePatch
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod
 import app.ayufa.patches.youtube.shared.Constants.COMPATIBILITY_YOUTUBE_MODERN
 import app.ayufa.patches.youtube.shared.declareAyufaSettingsSwitches
+import app.ayufa.patches.youtube.video.playback.resumedPlaybackFixPatch
 
 private const val EXTENSION_CLASS = "Lapp/ayufa/extension/youtube/LiveChatClutterHider;"
 
@@ -71,6 +72,13 @@ val hideLiveChatClutterPatch = bytecodePatch(
     compatibleWith(COMPATIBILITY_YOUTUBE_MODERN)
 
     dependsOn(hideLiveChatClutterSettingsPatch)
+
+    // Built-in workaround for the upstream resumed-from-history playback
+    // freeze. Not a feature of this patch: it rides along here because
+    // this is the patch that targets YouTube 21.30.216, so the fix is
+    // included by default in every build for that target. See
+    // ResumedPlaybackFixPatch.
+    dependsOn(resumedPlaybackFixPatch)
 
     extendWith("extensions/youtube.mpe")
 
